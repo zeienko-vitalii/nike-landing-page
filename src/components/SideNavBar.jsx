@@ -21,7 +21,7 @@ const SideNavBar = ({ isVisible, onClose }) => {
 				))}
 			</ul>
 			<div
-				className="lg:hidden cursor-pointer flex justify-end"
+				className="cursor-pointer flex justify-end"
 				onClick={onClose}
 			>
 				{/* <div className="hidden max-lg:block"> */}

@@ -8,21 +8,12 @@ import {
 	Subscribe,
 	Footer,
 } from "./sections/index";
-import SideNavBar from "./components/SideNavBar";
 import Nav from "./components/Nav";
-import { useState } from "react";
 
 const App = () => {
-	const [showSideMenu, setShowSideMenu] = useState(false);
-
-	const menuPressedCallback = () => {
-		setShowSideMenu(!showSideMenu);
-	};
 	return (
 		<main className="relative">
-			<Nav onShowMenu={menuPressedCallback} />
-			<SideNavBar isVisible={showSideMenu} onClose={menuPressedCallback} />
-			{/* {showSideMenu && <SideNavBar isVisible={showSideMenu} onClose={menuPressedCallback} />} */}
+			<Nav />
 
 			<section className="xl:padding-l wide:padding-r padding-b">
 				<Hero />
