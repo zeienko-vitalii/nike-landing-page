@@ -13,3 +13,4 @@ npm run dev
 ```
 
 ## Preview
+![Nike preview](https://github.com/zeienko-vitalii/nike-landing-page/assets/31850531/43f5994a-41c4-4a62-8f54-6dd452019876)
