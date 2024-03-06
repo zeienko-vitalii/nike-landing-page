@@ -1,8 +1,7 @@
 import { headerLogo } from "../assets/images";
-import { hamburger } from "../assets/icons";
 import { navLinks } from "../constants";
 
-const Nav = ({ onShowMenu }) => {
+const Nav = () => {
 	return (
 		<header className="padding-x py-8 absolute z-10 w-full">
 			<nav className="flex justify-between items-center max-container">
@@ -22,11 +21,6 @@ const Nav = ({ onShowMenu }) => {
 						</li>
 					))}
 				</ul>
-
-				<div className="lg:hidden cursor-pointer " onClick={onShowMenu}>
-					{/* <div className="hidden max-lg:block"> */}
-					<img src={hamburger} alt="Hamburger" width={25} height={25} />
-				</div>
 			</nav>
 		</header>
 	);
